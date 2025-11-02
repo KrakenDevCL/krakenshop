@@ -24,5 +24,5 @@ public class Compra implements Comparable<Compra>{
     @Override
     public int compareTo(Compra otraCompra) {
         return Double.valueOf(this.valor).compareTo(Double.valueOf(otraCompra.valor));
-    }git add .
+    }
 }
